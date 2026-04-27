@@ -79,13 +79,4 @@ Open an issue with:
 - [ ] New tools have docstrings with trigger phrases
 - [ ] README updated if user-facing behaviour changed
 
-## 🙏 Things we'd love help with
-
-- Wake-word detection (Picovoice / Web Speech API)
-- Streaming TTS
-- Mobile-responsive UI
-- Plugin auto-loader
-- More vision tools (face detection, depth estimation)
-- Test suite
-
 Cheers!
