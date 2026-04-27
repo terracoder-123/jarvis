@@ -24,7 +24,7 @@
 
 ---
 
-## ✨ What it does
+##  What it does
 
 JARVIS is a **production-grade conversational AI command center** that runs entirely on free-tier APIs. Talk to it. Show it images. Drop in spreadsheets. Watch it respond with synthesised speech, animated HUD windows, interactive 3D charts, and real-time data feeds — all wrapped in a Stark-Industries-grade UI.
 
@@ -33,7 +33,6 @@ JARVIS is a **production-grade conversational AI command center** that runs enti
 🎤 "Pull up the latest world news on the holographic display"
 🎤 "What's on my screen right now?"
 🎤 "Remember that I prefer dark mode and Italian food"
-🎤 "Plot a 3D scatter of revenue against quarter and region"
 ```
 
 ---
