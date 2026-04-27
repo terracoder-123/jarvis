@@ -1,0 +1,36 @@
+# ── Core server ───────────────────────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-socketio>=5.11.4
+python-multipart>=0.0.12
+python-dotenv>=1.0.1
+aiofiles>=24.1.0
+
+# ── AI / LLM (all free) ───────────────────────────────────────────────────────
+# All providers below are accessed via OpenAI-compatible HTTP (httpx) — only the
+# Groq SDK is needed directly because it powers the Whisper STT calls.
+groq>=0.11.0                 # Groq STT (Whisper) + primary chat completions
+google-genai>=1.0.0          # Optional Gemini fallback (also reachable via the OpenAI shim)
+edge-tts>=6.1.0              # Microsoft Edge TTS — completely free, no key
+
+# ── MCP ───────────────────────────────────────────────────────────────────────
+fastmcp>=2.3.0               # FastMCP server with SSE transport
+mcp>=1.3.0                   # MCP client (Gemini ↔ MCP bridge)
+
+# ── LiveKit (free tier) ───────────────────────────────────────────────────────
+livekit>=0.17.0              # LiveKit room + audio publishing
+livekit-api>=0.7.0           # LiveKit JWT token generation
+pydub>=0.25.1                # MP3 → PCM conversion for LiveKit frames
+
+# ── HTTP / data ───────────────────────────────────────────────────────────────
+httpx>=0.27.2                # Async HTTP for tools (news, weather, wiki, etc.) and the LLM cascade
+requests>=2.32.0             # Sync HTTP used by some scrapers
+beautifulsoup4>=4.12.0       # HTML parsing (worldometer scraper)
+
+# ── Data analytics ────────────────────────────────────────────────────────────
+pandas>=2.2.0                # Tabular data analysis (CSV, Excel, JSON, Parquet)
+numpy>=1.26.0                # Numerical operations and chart math
+plotly>=5.22.0               # Interactive 2D/3D chart specs (JSON → Plotly.js in browser)
+openpyxl>=3.1.0              # Excel file support for pandas
+pyarrow>=15.0.0              # Parquet file support for pandas
+networkx>=3.3                # Graph/network analysis utilities

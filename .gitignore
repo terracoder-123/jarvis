@@ -1,0 +1,72 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.PRIVATE.backup
+.env.*.backup
+*.key
+*.pem
+
+# ── Persistent data (don't ship the dev DB) ──────────────────────────────────
+jarvis_memory.db
+jarvis_memory.db-journal
+jarvis_memory.db-wal
+jarvis_memory.db-shm
+*.sqlite
+*.sqlite3
+
+# ── Runtime artifacts ────────────────────────────────────────────────────────
+jarvis_uploads/
+*.tmp
+*.bak
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Caches & logs ────────────────────────────────────────────────────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+logs/
+
+# ── OS junk ──────────────────────────────────────────────────────────────────
+.AppleDouble
+.LSOverride
+desktop.ini
