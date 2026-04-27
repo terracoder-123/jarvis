@@ -17,6 +17,11 @@
 
 </div>
 
+
+<img width="1254" height="658" alt="Recording 2026-04-27 132406" src="https://github.com/user-attachments/assets/c6cc036c-d8ee-4fab-b9dc-9e0f4ef3cdfe" />
+
+
+
 ---
 
 ## ✨ What it does
@@ -38,7 +43,9 @@ JARVIS is a **production-grade conversational AI command center** that runs enti
 > _Drop a 30-second screen-capture GIF here showing voice command → tool call → animated chart window opening._
 
 ```
-[insert demo.gif]
+
+
+
 ```
 
 ---
