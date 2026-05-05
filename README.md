@@ -37,18 +37,6 @@ JARVIS is a **production-grade conversational AI command center** that runs enti
 
 ---
 
-## 🎬 Demo
-
-> _Drop a 30-second screen-capture GIF here showing voice command → tool call → animated chart window opening._
-
-```
-
-
-
-```
-
----
-
 ## 🚀 Highlights
 
 | Capability | What it actually does |
